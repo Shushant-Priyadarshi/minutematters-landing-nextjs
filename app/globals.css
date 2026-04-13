@@ -1,0 +1,43 @@
+:root {
+  --cream: #F5F0E8;
+  --warm-white: #FDFAF4;
+  --charcoal: #1C1C1A;
+  --bark: #3D2B1F;
+  --sage: #5C7A5E;
+  --sage-light: #8AAD8C;
+  --amber: #C8873A;
+  --amber-light: #E8A855;
+  --muted: #8C8880;
+  --card-bg: rgba(255, 255, 255, 0.55);
+  --border: rgba(60, 50, 40, 0.12);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--charcoal);
+}
+
+/* ── Animations ── */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes orbFloat {
+  to {
+    opacity: 1;
+  }
+}
