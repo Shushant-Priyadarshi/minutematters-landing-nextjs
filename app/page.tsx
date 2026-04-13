@@ -28,6 +28,7 @@ export default function Home() {
           <a
             className={`${styles.card} ${styles.doctorCard}`}
             href="https://doctor.minutematters.in"
+            target='__blank'
             aria-label="Book a Doctor"
           >
             <div className={`${styles.cardIcon} ${styles.doctor}`} aria-hidden="true">🩺</div>
